@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <easyshipper_adminhtml_easyshipperbackend_index>
+	<reference name="content">
+	  <block type="easyshipper/adminhtml_easyshipperbackend" name="easyshipperbackend" template="easyshipper/easyshipperbackend.phtml"/>
+	</reference>
+  </easyshipper_adminhtml_easyshipperbackend_index>
+</layout>

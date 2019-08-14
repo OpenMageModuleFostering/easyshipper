@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>easyshipper</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="https://www.startsendr.com/nl/algemene-voorwaarden.html">ShopWeDo cvba</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sendr is a Belgian shipping solution optimized for E-commerce by ShopWeDo.com</summary>
+    <description>We offer a simple and cost effective service to ship your parcels worldwide.&#xD;
+&lt;ul&gt;&lt;li&gt;Send your parcels at 30-50% cheaper rates&lt;/li&gt;&lt;li&gt;View our prices on our website&lt;/li&gt;&lt;li&gt;Choose home delivery or (from within ShopWeDo: thousands of pickup points) all over the Benelux and Europe&lt;/li&gt;&lt;li&gt;No minimum, no contract required&lt;/li&gt;&lt;li&gt;Track and Trace emails&lt;/li&gt;&lt;/ul&gt;Pay as you use: We only charge the shipping costs of parcels you've sent. So, no hidden costs or contracts.</description>
+    <notes>First time release. Enabling our existing, and future Magento customers to send an orders shipping address to the Sendr backend. A button has been added inside every order called [ Get a label with sendr ]</notes>
+    <authors><author><name>ShopWeDo</name><user>MAG003267953</user><email>support@shopwedo.com</email></author></authors>
+    <date>2016-09-14</date>
+    <time>11:12:57</time>
+    <contents><target name="magelocal"><dir name="ShopWeDo"><dir name="EasyShipper"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="View.php" hash="23f43bea9baa55be564833307dda52b5"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="a460718562e4e3e65add022bff1d8eb5"/></dir><dir name="Model"><file name="Api.php" hash="2e7c4df78aaa951f364739e97c0e5378"/></dir><dir name="etc"><file name="api.xml" hash="75d9c9953b08ef8d47f8381c55c9d6b3"/><file name="config.xml" hash="b0c6eb1d72470e85157782f9b64a53f4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ShopWeDo_EasyShipper.xml" hash="fb0cf9ccf556413a64defa20a404a2fd"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="easyshipper.xml" hash="759d0682ef657caad533819a4675664f"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

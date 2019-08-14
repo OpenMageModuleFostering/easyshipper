@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <easyshipper_api translate="title" module="easyshipper">
+                <title>Myapi</title>
+                <acl>easyshipper/api</acl>
+                <model>easyshipper/api</model>
+                <methods>                    
+						<swdshipments translate="title" module="easyshipper">
+							<title>swdShipments</title>
+							<acl>easyshipper/swdshipments</acl>
+						</swdshipments>                    
+						<swdpaginationableorders translate="title" module="easyshipper">
+							<title>swdPaginationableOrders</title>
+							<acl>easyshipper/swdpaginationableorders</acl>
+						</swdpaginationableorders>
+                </methods>
+            </easyshipper_api>
+        </resources>
+        <acl>
+            <resources>
+                <easyshipper translate="title" module="easyshipper">
+                    <title>EasyShipper</title>
+                    <sort_order>2000</sort_order>                    
+					<swdshipments translate="title" module="easyshipper">
+                        <title>swdShipments</title>
+                    </swdshipments>                    
+					<swdpaginationableorders translate="title" module="easyshipper">
+                        <title>swdPaginationableOrders</title>
+                    </swdpaginationableorders>
+                </easyshipper>
+            </resources>
+        </acl>
+    </api>
+</config>
