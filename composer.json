@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/easyshipper",
+    "name": "OpenMageModuleFostering\/easyshipper",
     "type": "magento-module",
     "license": "ShopWeDo-cvba",
     "homepage": "",
     "description": "Sendr is a Belgian shipping solution optimized for E-commerce by ShopWeDo.com",
     "authors": [
-    {
-        "name": "ShopWeDo",
-        "email": "support@shopwedo.com"
-    }
-],
+        {
+            "name": "ShopWeDo",
+            "email": "support@shopwedo.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
